@@ -9,38 +9,65 @@ st.set_page_config(page_title="Relatórios Analíticos de Saúde Comunitária", 
 st.title("Relatórios Analíticos de Saúde Comunitária")
 st.subheader("Análise de dados de saúde para identificação de comorbidades e apoio ao planejamento preventivo")
 
-# Carregar os dados (substitua 'dados_saude.csv' pelo caminho real do arquivo)
+# Sidebar para navegação entre páginas
+st.sidebar.title("Navegação")
+pagina_selecionada = st.sidebar.selectbox("Selecione a página:", ["Visão Geral", "Análise de Comorbidades", "Relatórios Personalizados"])
+
+# Carregar os dados
 @st.cache_data
 def carregar_dados():
     return pd.read_csv('dados_saude_comunidade.csv')
 
-# Função para exibir os dados carregados
 dados = carregar_dados()
-st.write("Dados carregados:", dados.head())
 
-# Visualização das Comorbidades
-st.subheader("Distribuição das Comorbidades")
-comorbidades = dados['comorbidade'].value_counts()
-st.bar_chart(comorbidades)
+# Página 1: Visão Geral
+if pagina_selecionada == "Visão Geral":
+    st.title("Visão Geral")
+    st.write("Bem-vindo ao painel de relatórios de saúde comunitária.")
+    st.write("Nesta seção, você verá uma visão geral dos dados, como o total de pacientes, comorbidades mais comuns, entre outras métricas.")
+    
+    # Exemplo de métrica
+    st.write("**Total de Pacientes:**", len(dados))
+    comorbidade_comum = dados['comorbidade'].value_counts().idxmax()
+    st.write("**Comorbidade Mais Comum:**", comorbidade_comum)
 
-# Tendência ao longo do tempo (exemplo: novos casos por mês)
-st.subheader("Tendência de Casos ao Longo do Tempo")
-dados['data'] = pd.to_datetime(dados['data'])  # Converter a coluna de datas
-dados['mes'] = dados['data'].dt.to_period("M")
-tendencia = dados.groupby('mes').size()
-st.line_chart(tendencia)
+# Página 2: Análise de Comorbidades
+elif pagina_selecionada == "Análise de Comorbidades":
+    st.title("Análise de Comorbidades")
+    st.write("Nesta seção, você pode explorar as comorbidades dos pacientes e suas distribuições.")
+    
+    # Filtros e gráficos para analisar comorbidades
+    comorbidades = dados['comorbidade'].value_counts()
+    st.bar_chart(comorbidades)
 
-# Identificar Grupos de Risco
-st.subheader("Análise de Grupos de Risco")
-idade_risco = dados.groupby('idade').size()
-st.area_chart(idade_risco)
+# Página 3: Relatórios Personalizados
+elif pagina_selecionada == "Relatórios Personalizados":
+    st.title("Relatórios Personalizados")
+    st.write("Aqui você pode personalizar relatórios com filtros e exportá-los conforme necessário.")
+    
+    # Filtros de idade e sexo
+    idade_min, idade_max = st.slider(
+        "Filtrar por faixa etária", 
+        min_value=int(dados['idade'].min()), 
+        max_value=int(dados['idade'].max()), 
+        value=(0, 60)
+    )
+    sexo = st.selectbox("Filtrar por sexo", ["Todos", "Masculino", "Feminino"])
+    
+    # Filtro de comorbidade
+    comorbidades_unicas = sorted(dados['comorbidade'].str.split(", ").explode().unique())  # Obter lista única de comorbidades
+    comorbidades_selecionadas = st.multiselect("Filtrar por comorbidade", comorbidades_unicas, default=comorbidades_unicas)
+    
+    # Aplicar filtros aos dados
+    dados_filtrados = dados[(dados['idade'] >= idade_min) & (dados['idade'] <= idade_max)]
+    if sexo != "Todos":
+        dados_filtrados = dados_filtrados[dados_filtrados['sexo'] == sexo]
+    if comorbidades_selecionadas:
+        dados_filtrados = dados_filtrados[dados_filtrados['comorbidade'].apply(lambda x: any(comorb in x for comorb in comorbidades_selecionadas))]
 
-# Insights com métricas
-st.write("Total de Pacientes:", len(dados))
-st.write("Total de Casos com Comorbidades:", comorbidades.sum())
-st.write("Comorbidade Mais Comum:", comorbidades.idxmax())
-
-# Filtros e interação
-idade_min, idade_max = st.slider("Filtrar por faixa etária", min_value=int(dados['idade'].min()), max_value=int(dados['idade'].max()), value=(20, 60))
-dados_filtrados = dados[(dados['idade'] >= idade_min) & (dados['idade'] <= idade_max)]
-st.write("Dados filtrados por faixa etária:", dados_filtrados.head())
+    # Exibir dados filtrados
+    st.write("Dados filtrados:", dados_filtrados)
+    
+    # Opção para exportar dados filtrados
+    csv = dados_filtrados.to_csv(index=False)
+    st.download_button(label="Baixar Relatório CSV", data=csv, file_name="relatorio_filtrado.csv", mime="text/csv")
