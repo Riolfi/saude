@@ -1,0 +1,101 @@
+nome,num_sus,data_nascimento,comorbidade,endereco,data,idade,sexo
+Sr. Yuri Barbosa,88152305967,1959-12-07,Hipertenso,"Parque de Azevedo, 114",2023-04-07,31,Masculino
+Noah das Neves,60541374426,1957-01-26,Hipertenso,"Viela Novaes, 329",2024-07-06,36,Masculino
+Ian Martins,41964833411,1952-05-16,"Criança, Saúde Mental","Campo Daniel Silva, 701",2023-09-01,38,Masculino
+Dr. Vinicius Cardoso,29507817782,1938-09-05,"Saúde Mental, Hanseníase","Feira Moreira, 135",2023-04-16,45,Masculino
+Nicolas Gonçalves,26864117945,1963-03-24,"Câncer, Saúde Mental","Viaduto Pedro Lucas Rocha, 161",2023-11-11,65,Masculino
+Otávio Araújo,60440222243,2013-04-12,"Criança, Diabético, Câncer","Residencial Carvalho, 159",2024-09-17,22,Feminino
+Igor Pires,11066608860,2018-10-28,"Saúde Mental, DPOC","Lago Alice Alves, 188",2023-04-12,48,Masculino
+Maria Luiza Sales,66478694677,1984-11-06,"Câncer, Saúde Mental","Conjunto Jesus, 711",2023-09-14,51,Feminino
+Maria Alice Teixeira,62836784187,1963-01-07,"Saúde Mental, Gestante","Alameda Nogueira, 455",2023-11-27,63,Feminino
+Yago Pinto,62276927919,1941-01-22,Hanseníase,"Estação Ian Nogueira, 121",2024-01-06,37,Feminino
+Alana Nunes,79703131535,2004-11-13,"Câncer, Domiciliado, Acamado","Esplanada de da Rosa, 542",2024-04-19,67,Masculino
+Anthony Barros,40420348596,2007-03-10,"Câncer, DPOC","Lago Costela, 551",2023-12-18,52,Feminino
+Rafaela Silveira,66714843919,1975-12-04,"Hipertenso, Domiciliado, Tuberculose","Alameda Rafaela Sales, 55",2023-09-28,38,Masculino
+Vinicius Rezende,00373936874,1969-02-18,Criança,"Loteamento de Barbosa, 602",2023-04-19,32,Feminino
+Juan Rezende,55888054270,1992-08-28,"Hanseníase, DPOC, Diabético","Colônia Maria Julia Moura, 952",2022-12-26,60,Feminino
+Júlia Farias,98288760685,2003-09-09,"Câncer, Tuberculose, Domiciliado","Loteamento Leonardo Peixoto, 435",2022-11-13,58,Feminino
+Yago Ferreira,95162424686,1958-12-09,Diabético,"Fazenda Larissa Rezende, 921",2023-09-04,75,Masculino
+Pedro Peixoto,15400211183,1972-12-01,Acamado,"Jardim de Martins, 322",2024-02-12,36,Masculino
+Valentina Pires,50648531871,2013-03-30,"Tuberculose, Hanseníase","Vila de Pereira, 978",2023-02-26,31,Feminino
+Srta. Isabel Viana,37249785078,2001-02-16,"Hipertenso, Diabético","Sítio de Aragão, 111",2023-06-02,67,Masculino
+Felipe Moraes,68409846787,1952-04-24,"Domiciliado, Saúde Mental, Hipertenso","Passarela André Silveira, 882",2022-12-26,55,Feminino
+Eloah Araújo,41702669168,2001-11-20,"Saúde Mental, Tuberculose","Morro Lima, 178",2023-01-20,47,Masculino
+Alexandre Novaes,65030274263,2008-12-13,Diabético,"Loteamento de Monteiro, 526",2022-12-16,55,Feminino
+Ana Lívia Santos,57154147446,1991-05-11,"Hipertenso, Criança","Lagoa da Luz, 709",2023-08-17,68,Feminino
+Leonardo Porto,40281844122,1966-03-11,"DPOC, Gestante, Hanseníase","Setor Eduarda Mendes, 73",2024-03-15,61,Feminino
+Murilo Viana,49556258152,1943-10-02,"Câncer, Hanseníase","Alameda Carvalho, 326",2024-08-29,64,Masculino
+Emanuella Correia,21192114958,1988-05-09,"DPOC, Domiciliado, Criança","Quadra Milena Oliveira, 810",2023-08-23,70,Masculino
+Dr. Vitor Hugo Costa,38462784258,1934-08-23,"Domiciliado, DPOC, Saúde Mental","Jardim Ribeiro, 310",2024-10-11,69,Feminino
+Augusto Alves,35996134230,2006-02-04,"Câncer, DPOC","Rua Farias, 151",2024-05-05,50,Masculino
+Daniel Rodrigues,65297952315,1997-12-30,Domiciliado,"Feira de Jesus, 648",2024-01-08,50,Masculino
+Alexia Pires,87696617103,1976-03-12,DPOC,"Favela Stella Jesus, 735",2024-01-22,48,Masculino
+Isabel Dias,65632133835,1987-09-06,"Acamado, Saúde Mental, Hipertenso","Jardim Emanuel Souza, 102",2024-01-28,80,Masculino
+Brenda Nogueira,77655533878,2023-10-19,DPOC,"Chácara de Azevedo, 371",2023-03-19,73,Masculino
+Larissa Viana,25406059663,1951-08-02,"Diabético, Criança","Aeroporto Cavalcanti, 645",2024-02-01,61,Feminino
+Bryan Rocha,41151446682,1950-05-21,"Câncer, Hanseníase","Viela Nogueira, 108",2023-10-29,40,Masculino
+Vitor Hugo da Conceição,39722126143,1943-02-18,Domiciliado,"Distrito Vitor Hugo Freitas, 103",2024-02-13,71,Masculino
+Dr. Bryan Cunha,38557877032,1957-12-05,Acamado,"Praça Correia, 899",2023-06-22,34,Feminino
+Gabriela Alves,11117504133,2012-12-04,"Domiciliado, Gestante","Campo Alexandre Moraes, 467",2023-02-17,78,Masculino
+Maria Julia da Cruz,20141246816,1979-08-25,Câncer,"Residencial de Alves, 956",2023-03-06,73,Feminino
+Maitê Almeida,59403384085,1946-05-09,"Tuberculose, Criança, DPOC","Chácara de Ferreira, 733",2024-08-23,50,Masculino
+Sra. Luiza Cardoso,71723488665,2015-05-21,"Hanseníase, Saúde Mental, Câncer","Fazenda Rezende, 170",2024-01-19,74,Feminino
+Maria Eduarda Jesus,74974133559,2015-08-10,"Tuberculose, Hipertenso, Diabético","Vereda Vitor Gabriel Cardoso, 55",2024-01-22,43,Feminino
+Luiz Otávio Fernandes,35422364115,1974-04-03,"DPOC, Diabético, Hipertenso","Chácara de Pereira, 672",2024-09-23,39,Masculino
+Benício Silveira,27248521005,2009-09-01,"Hipertenso, Câncer","Avenida Barbosa, 803",2023-10-01,19,Feminino
+Alexia da Paz,61489210805,2005-05-19,"Hanseníase, Criança, Câncer","Recanto Cardoso, 431",2024-08-12,24,Masculino
+Vicente Melo,48278097264,1976-01-30,"Saúde Mental, Tuberculose, Hanseníase","Loteamento da Paz, 790",2023-02-25,65,Masculino
+Lucas da Conceição,13863330976,1946-05-30,"Saúde Mental, Domiciliado, Hanseníase","Avenida Melissa Almeida, 803",2024-07-11,69,Masculino
+Luiz Felipe Viana,68298478377,1934-02-17,"Domiciliado, Gestante, Hanseníase","Rua de Costa, 509",2023-02-13,51,Masculino
+Breno Castro,92762243064,2021-11-29,"Hanseníase, Acamado","Chácara Mendes, 46",2022-11-10,64,Masculino
+Bianca Ribeiro,03363459401,1992-11-15,"DPOC, Tuberculose, Acamado","Fazenda de Martins, 85",2024-08-31,36,Feminino
+Maria Eduarda Cardoso,79861887348,2006-02-23,DPOC,"Trevo de Duarte, 736",2024-08-25,56,Feminino
+Daniela da Luz,48884781350,1966-11-18,"Saúde Mental, Diabético","Vale de Rocha, 527",2024-01-27,38,Masculino
+Juliana Nascimento,03546959279,2010-12-21,Gestante,"Vale de Monteiro, 568",2022-11-22,39,Masculino
+Dra. Emilly Costela,43082526047,1964-10-07,DPOC,"Lagoa de Barros, 127",2024-10-20,70,Feminino
+Dr. Luiz Fernando Lopes,35853250223,1998-12-26,Hanseníase,"Condomínio Araújo, 77",2024-03-29,71,Masculino
+Bruno Cunha,32476086962,1977-04-14,"Hanseníase, DPOC, Saúde Mental","Vila Moraes, 731",2023-01-26,74,Feminino
+Natália Moraes,12370680167,2015-04-03,DPOC,"Morro Carlos Eduardo Nogueira, 708",2024-02-23,53,Masculino
+Pietra Almeida,54472756999,1965-09-08,Domiciliado,"Vereda Kaique Ribeiro, 674",2024-10-05,32,Feminino
+Catarina Martins,49584383968,1963-12-12,Acamado,"Sítio Carolina Duarte, 660",2024-08-06,40,Masculino
+Dr. Marcos Vinicius Rocha,81620304995,1968-09-12,Câncer,"Recanto Pedro Lucas Nunes, 967",2023-04-02,66,Masculino
+Sra. Marcela Ferreira,16109272353,1958-03-30,"Acamado, Hanseníase, Gestante","Favela Fernanda das Neves, 774",2024-09-09,58,Masculino
+Dr. Nathan Gonçalves,27335830782,1976-01-01,"Gestante, Tuberculose, Saúde Mental","Fazenda Mendes, 45",2023-10-08,28,Masculino
+Juan Cunha,61307539429,2016-06-08,Domiciliado,"Residencial de Gonçalves, 647",2023-05-16,75,Masculino
+Miguel Sales,40342182106,1955-05-12,"DPOC, Saúde Mental, Domiciliado","Rodovia Samuel da Mota, 545",2024-07-08,66,Masculino
+João Guilherme Farias,28162188824,1974-08-20,"DPOC, Diabético, Gestante","Campo de Moraes, 680",2023-07-24,74,Feminino
+Vitória da Mata,24399141199,1955-10-21,Tuberculose,"Recanto Silva, 620",2024-04-06,55,Feminino
+Dr. Joaquim Barros,30819184306,1990-01-02,Hanseníase,"Aeroporto da Rocha, 315",2022-11-29,70,Feminino
+Eloah Aragão,41518190605,1992-04-09,Câncer,"Vereda Fernandes, 988",2023-10-06,74,Masculino
+Sr. Emanuel Fernandes,82135966212,2005-05-24,"Câncer, Diabético, Saúde Mental","Quadra Caldeira, 572",2024-08-16,18,Feminino
+Srta. Maria Julia Oliveira,34728455188,1973-09-24,"DPOC, Tuberculose","Loteamento Moraes, 673",2024-06-17,21,Masculino
+Sophia Peixoto,25674443209,1946-10-10,"Criança, Câncer","Chácara Campos, 511",2023-05-24,67,Masculino
+Isabelly Campos,21992929079,1948-11-03,"Acamado, Saúde Mental, Domiciliado","Vereda Emanuel da Cunha, 609",2024-03-23,65,Feminino
+Thiago Souza,00252165980,1940-08-30,"Câncer, Tuberculose","Passarela Mirella Rezende, 306",2023-06-08,28,Masculino
+Thales Cunha,80957159850,1982-10-22,Acamado,"Lagoa Castro, 976",2024-07-11,57,Feminino
+Bryan Caldeira,22866744062,1966-04-04,Domiciliado,"Travessa de da Mata, 907",2024-08-29,33,Masculino
+Thales Rocha,71342502771,1987-11-16,"Hipertenso, Gestante, Saúde Mental","Esplanada de Carvalho, 875",2023-11-01,76,Feminino
+Dra. Maria Luiza Barbosa,33443036924,1998-04-06,"Gestante, Tuberculose","Lagoa Lívia Nogueira, 678",2024-02-01,55,Feminino
+Dr. Lucas Gabriel Cavalcanti,55111336716,1987-04-28,Hipertenso,"Praia Sales, 674",2023-12-16,45,Feminino
+Sofia Dias,61728308290,1955-05-16,"Hanseníase, Saúde Mental","Fazenda Barbosa, 857",2024-08-14,47,Feminino
+Dra. Maria Fernanda Araújo,35579400897,1994-06-15,"Hanseníase, Acamado, Tuberculose","Estrada de da Costa, 329",2023-08-12,36,Feminino
+Sra. Nicole Moreira,37730847485,2014-06-09,"Acamado, Gestante","Rodovia de Aragão, 175",2023-04-01,23,Feminino
+Theo Nogueira,62810158323,1981-09-04,Diabético,"Loteamento Moura, 695",2024-09-17,80,Feminino
+Davi Lucas Souza,70116564406,1993-01-09,Criança,"Trevo da Conceição, 886",2024-08-03,78,Masculino
+Murilo Martins,63796023565,2014-12-30,"Gestante, Acamado, Diabético","Praia da Costa, 848",2024-02-03,29,Feminino
+Marina Costela,37394429446,1999-12-31,Domiciliado,"Distrito de Moreira, 738",2024-04-23,38,Feminino
+Alexia Oliveira,49492565737,1951-12-22,DPOC,"Viela Rodrigues, 880",2024-10-21,63,Masculino
+Luna Teixeira,66922999278,1975-09-16,Acamado,"Largo de da Paz, 397",2024-03-13,69,Feminino
+Catarina da Rocha,74428984397,1976-06-01,Acamado,"Via Joaquim Campos, 66",2024-02-29,52,Feminino
+Larissa da Conceição,16097515327,1934-11-11,"Gestante, Tuberculose, Acamado","Distrito Aragão, 287",2023-05-15,54,Masculino
+João Correia,29774132092,1944-07-16,"Acamado, Criança, Domiciliado","Viaduto de Nogueira, 148",2024-06-02,33,Feminino
+Isis Barbosa,92912890856,1991-08-23,"Diabético, Domiciliado, Hipertenso","Núcleo da Rosa, 400",2024-05-03,18,Feminino
+João Lucas Pinto,93336554625,1997-08-24,"Tuberculose, Saúde Mental, Hanseníase","Vila Maria Novaes, 20",2024-10-17,22,Masculino
+Breno Rezende,86293098970,1963-01-11,"Domiciliado, Câncer","Morro Caldeira, 100",2022-11-06,56,Masculino
+Sr. Diogo Fogaça,74122119309,2003-12-29,Hanseníase,"Esplanada da Costa, 917",2023-02-27,34,Feminino
+Agatha Lopes,03188657967,1995-02-26,DPOC,"Jardim Fernando Alves, 312",2024-03-07,63,Masculino
+Davi das Neves,39057190864,2008-08-16,"Acamado, Criança, Gestante","Ladeira de Duarte, 78",2024-07-16,20,Masculino
+Pedro Miguel Lopes,94902551314,1997-02-10,Tuberculose,"Campo de Sales, 699",2024-09-24,51,Feminino
+Srta. Juliana da Rosa,02273113569,1994-07-17,"DPOC, Acamado, Hanseníase","Rodovia Castro, 291",2024-08-11,80,Feminino
+Luigi Silveira,66437023204,1998-04-05,Criança,"Esplanada de Correia, 236",2023-02-11,29,Feminino
+Ana Teixeira,41484090072,1942-01-03,"Criança, Domiciliado","Largo de Santos, 291",2023-12-22,61,Feminino
